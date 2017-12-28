@@ -1,0 +1,538 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*Logo*/
+#logo {
+  margin-top: 3%;
+  width: 20%;
+  height: 20%;
+}
+
+.name {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 13%;
+  margin-top: 2%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 40px;
+  color: red;
+}
+
+/*.search {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 75%;
+  margin-top: 5%;
+}*/
+
+/*Nav Bar*/
+.menubar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: white;
+  max-width: none;
+}
+
+.menu1 .menu2 {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  width: 80%;
+}
+
+.menu3 {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  float: left;
+  width: 80%;
+}
+
+li a, .menu3 {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropmenu {
+  float: left;
+  width: 12%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+li.dropmenu {
+  display: inline-block;
+}
+
+.dropmenu-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  margin-top: 3.5%;
+  border:  2px solid black;
+}
+
+.dropmenu-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropmenu-content a:hover {
+  background-color: red;
+}
+
+.dropmenu:hover .dropmenu-content {
+  display: block;
+}
+
+.menu1:hover {
+  background-color: black;
+  color: white;
+  }
+
+.menu2:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu3:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu1 {
+  float: left;
+  width: 12%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.menubar {
+  list-style-type: none;
+  margin: 0px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding-left: 12%;
+}
+
+nav{
+  margin: 0;
+}
+
+/*Show user what page they are on*/
+#home {
+  background-color: black;
+  color: white;
+}
+
+#about {
+  background-color: black;
+  color: white;
+}
+
+#products {
+  background-color: black;
+  color: white;
+}
+
+#promotions {
+  background-color: black;
+  color: white;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+#hair {
+  background-color: red;
+  color: white;
+}
+
+#pieces {
+  background-color: red;
+  color: white;
+}
+
+#wigs {
+  background-color: red;
+  color: white;
+}
+
+#skincare {
+  background-color: red;
+  color: white;
+}
+
+#make {
+  background-color: red;
+  color: white;
+}
+
+#nail {
+  background-color: red;
+  color: white;
+}
+
+#app {
+  background-color: red;
+  color: white;
+}
+
+#accessories {
+  background-color: red;
+  color: white;
+}
+
+/*Title and Subtitle*/
+.title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+.subtitle {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: black;
+}
+
+/*Featured Brands Collage*/
+.brand {
+  text-align: center;
+}
+
+/*Flex-New Arrivals & Popular Items*/
+#left {
+  float: left;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+  background-color: #dc143c;
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+#right {
+  float: right;
+  width: 45%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+  background-color: #dc143c;
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+/*Divider Lines*/
+.extend {
+  line-height: 275px;
+}
+
+.extend1 {
+  line-height: 500px;
+}
+
+.extend2 {
+  line-height: 100px;
+}
+
+.extend3 {
+  line-height: 700px;
+}
+
+.extend4 {
+  line-height: 400px;
+}
+
+.extend5 {
+  line-height: 300px;
+}
+
+.extend6 {
+  line-height: 430px;
+}
+
+.extend7 {
+  line-height: 70px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/*Flex-Store Location&Hours and Social Media*/
+.left1 {
+  float: left;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  box-shadow: 0px 0px 40px #7E827A;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.right1 {
+  float: right;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  box-shadow: 0px 0px 40px #7E827A;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.facebook {
+  float:left;
+  margin-left: 35%;
+}
+
+.instagram {
+  float: right;
+  margin-right: 35%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 20px;
+}
+
+/*footer*/
+footer {
+  background-color: #dc143c;
+  text-align: center;
+  font-size: 15px;
+  padding: 1%;
+  color: white;
+  margin-top: 35%;
+}
+
+/*Under Construction Notice*/
+.under {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  border: 4px solid #dc143c;
+}
+
+/*About Us*/
+.store1 {
+  height: 400px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.aboutusleft {
+  float: left;
+  width: 40%;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  box-shadow: 0px 0px 40px #7E827A;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.aboutusright {
+  float: right;
+  width: 40%;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  box-shadow: 0px 0px 40px #7E827A;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.aboutusleft1 {
+  float: left;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  box-shadow: 0px 0px 40px #7E827A;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.storemap {
+  float: right;
+  margin-right: 10%;
+}
+
+/*Products pages*/
+div.gallery {
+    margin: 4%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    color: #dc143c;
+    text-align: center;
+}
+
+/*New Arrivals and Popular Page*/
+.supertitle {
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+div.newarrivals {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: -1%;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.newarrivals1{
+  text-align: center;
+}
+
+.newarrivalstext {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+/*Promotions Page*/
+img.loyal {
+  margin-left: 33%
+}
+
+.wigcard {
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  width: 45%;
+  padding: 5px;
+  border: 4px solid #dc143c;
+  margin-left: 27%;
+}
+
+/*Contact Us*/
+.store {
+  height: 350px;
+  width: 100%;
+  margin-left: 0%;
+}
+
+/*Subscription form
+#subscription {
+  margin-left: 40%;
+}
+.subscribe {
+  text-align: center;
+  border: 2px solid black;
+  width: 30%;
+  padding:3px;
+}
+
+.error {
+  display: inline-block;
+  background-color: white;
+  border: 1px #dc143c solid;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}*/
